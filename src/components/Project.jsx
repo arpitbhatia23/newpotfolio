@@ -83,12 +83,12 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex space-x-4" id="el-noxoujy2">
-                <a href={project.githubLink} className="text-blue-500 hover:text-blue-400 transition-colors" id="el-0wnia21f">
+                {/* <a href={project.githubLink} className="text-blue-500 hover:text-blue-400 transition-colors" id="el-0wnia21f">
                   <i className="fab fa-github text-xl" id="el-uuk5ff6o"></i> Code
                 </a>
                 <a href={project.liveDemoLink} className="text-blue-500 hover:text-blue-400 transition-colors" id="el-9nvotr3n">
                   <i className="fas fa-external-link-alt text-xl" id="el-19abbbr9"></i> Live Demo
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

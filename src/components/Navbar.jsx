@@ -50,7 +50,7 @@ function Navbar() {
    
   
 <>
-<div className='fixed bg-neutral-700 text-white h-16  w-full flex justify-around items-center z-50'>
+<div className='fixed bg-neutral-950 text-white h-16  w-full flex justify-around items-center z-50'>
   <h1 className='text-4xl bg-gradient-to-r from-blue-700 to-purple-800 bg-clip-text text-transparent font-semibold '> Aurpit</h1>
   <ul className="hidden md:flex text-xl font-cursive  cursor-pointer">
   {navLink.map(({id,link})=>(

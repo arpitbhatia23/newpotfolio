@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Code from "./Code"; // Ensure the path is correct
 import { Button } from "./ui/button";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -31,15 +32,15 @@ const Home = () => {
   Passionate MERN stack developer crafting{'\n'}modern web experiences
 </div>
 
-          <Button className="bg-blue-700 rounded-full px-6 py-2 mt-4">
+          <Link  to="Project"> <Button className="bg-blue-700 rounded-full px-6 py-2 mt-4">
             View Projects
-          </Button>{" "}
-          <Button
+          </Button></Link>{" "}
+         <Link to="Contact"> <Button
             variant="outline"
             className="bg-transparent border-2 border-blue-700 rounded-full px-6 py-2 mt-4"
           >
             Contact me
-          </Button>
+          </Button></Link>
         </pre>
       </div>
 
