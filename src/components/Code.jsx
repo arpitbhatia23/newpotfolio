@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription } from './ui/card'
 const Code = () => {
   return (
 
-      <Card className='bg-neutral-800 text-white  p-8 border min-w-80 border-neutral-700 relative w-full   '>
+      <Card className='bg-neutral-800 text-white  p-8 border  min-w-[350px] sm:min-w-80 border-neutral-700 relative w-full   '>
         <CardContent>
             <CardDescription className="text-white">
         <pre className='text-xs sm:text-sm md:text-base text-left'>
